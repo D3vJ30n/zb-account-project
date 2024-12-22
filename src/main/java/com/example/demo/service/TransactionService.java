@@ -20,6 +20,7 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 /**
+ * service -> 비즈니스 로직 처리
  * 거래 관리 서비스
  */
 @Service

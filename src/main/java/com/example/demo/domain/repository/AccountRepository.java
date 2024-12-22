@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
+ * repository -> 데이터 접근 계층
  * 계좌 정보 레포지토리
  */
 @Repository

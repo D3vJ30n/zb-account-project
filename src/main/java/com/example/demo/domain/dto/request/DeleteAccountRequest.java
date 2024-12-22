@@ -8,6 +8,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
 /**
+ * dto -> 요청 및 응답 객체
  * 계좌 해지 요청 DTO
  */
 @Getter

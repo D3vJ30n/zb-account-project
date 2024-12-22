@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean; // Bean 등록을 위한 어
 import org.springframework.context.annotation.Configuration; // Spring의 Configuration 클래스임을 나타냄
 
 /**
+ * config -> 설정 파일
  * SwaggerConfig 클래스는 OpenAPI 3.0 기반의 Swagger 설정을 담당
  * Swagger는 REST API 문서를 자동으로 생성해주는 도구이며, API 명세를 시각적으로 제공
  */

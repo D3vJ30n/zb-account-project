@@ -9,6 +9,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
 /**
+ * dto -> 요청 및 응답 객체
  * 잔액 사용 요청 DTO
  */
 @Getter

@@ -18,6 +18,7 @@ import java.util.Random;
 import java.util.stream.Collectors;
 
 /**
+ * service -> 비즈니스 로직 처리
  * 계좌 관리 서비스
  */
 @Service

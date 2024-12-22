@@ -13,6 +13,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 /**
+ * config -> 설정 파일
  * RedisConfig 클래스는 Redis와 연동하기 위한 설정을 정의
  * 이 클래스는 Redisson 라이브러리를 사용하여 Redis 클라이언트를 생성하며,
  * Spring Context에서 관리되는 Bean으로 등록

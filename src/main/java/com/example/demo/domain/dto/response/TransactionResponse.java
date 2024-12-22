@@ -54,7 +54,7 @@ public class TransactionResponse {
      * @return TransactionResponse 객체
      */
     public static TransactionResponse from(Transaction transaction) {
-        return TransactionResponse.builder()
+        return TransactionResponse.builder() // TransactionResponse 객체 생성
             .accountNumber(transaction.getAccountNumber())
             .transactionType(transaction.getTransactionType())
             .transactionResult(transaction.getTransactionResultType())

@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.net.ServerSocket;
 
 /**
+ * config -> 설정 파일
  * EmbeddedRedisConfig 클래스는 테스트 환경에서 사용되는 내장 Redis 서버를 설정하는 클래스
  */
 
@@ -36,7 +37,7 @@ public class EmbeddedRedisConfig {
         try {
             redisServer = RedisServer.builder()
                 .port(redisPort)
-                .setting("maxmemory 128M") // 메모리 제한
+                .setting("maxmemory 128M") // 메모리 제한 이유 : 메모리 부족 방지
                 .build();
             redisServer.start();
 

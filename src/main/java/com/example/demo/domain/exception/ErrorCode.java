@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 /**
+ * 예외 처리 클래스
  * 비즈니스 에러 코드 열거형
  */
 @Getter

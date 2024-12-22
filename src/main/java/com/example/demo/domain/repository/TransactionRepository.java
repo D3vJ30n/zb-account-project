@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 
 /**
+ * repository -> 데이터 접근 계층
  * 거래 정보 레포지토리
  */
 @Repository

@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /**
+ * controller -> API 요청/응답 처리
  * 계좌 관리 API를 처리하는 컨트롤러
  */
 @RestController

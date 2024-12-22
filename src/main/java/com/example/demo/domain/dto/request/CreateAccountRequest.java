@@ -8,6 +8,7 @@ import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 
 /**
+ * dto -> 요청 및 응답 객체
  * 계좌 생성 요청 DTO
  */
 @Getter

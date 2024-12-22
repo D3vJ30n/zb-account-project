@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * service -> 비즈니스 로직 처리
  * Redis를 활용한 분산 락 서비스
  */
 @Service

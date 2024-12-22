@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 /**
+ * 예외 처리 클래스
  * 계좌 관련 비즈니스 예외 클래스
  */
 @Getter

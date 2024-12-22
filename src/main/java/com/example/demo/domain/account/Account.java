@@ -7,7 +7,8 @@ import lombok.*;
 import java.time.LocalDateTime;
 
 /**
- * 계좌 정보를 관리하는 엔티티 클래스
+ * domain -> 엔티티 클래스 정의
+ * 계좌 정보를 관리하는 엔티티 클래스, 엔티티는 테이블과 1:1 매핑되는 클래스, 데이터베이스의 테이블을 나타냄
  */
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
